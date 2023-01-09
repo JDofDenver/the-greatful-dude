@@ -1,3 +1,27 @@
 body{
-    background: blue;
+    background-image: url('https://imgs.search.brave.com/2gB69y7lU_aPbAVgJbpLMQyFBMfCMamJ1qxSaUbN3FA/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wYnMu/dHdpbWcuY29tL3By/b2ZpbGVfaW1hZ2Vz/LzQxNTAxMTg4NTY0/NjYzOTEwNC9Lb3Zp/SENNUC5qcGVn');
+    background-color: 0,0,0,0.3;
+}
+h1{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+#ghost{
+    width: 50%;
+    float: left;
+    display: block;
+    color:white;
+    font-size: 25px;
+}
+
+.pac{
+    width:50%;
+    float:right;
+    text-align: center;
+}
+.firstParagraph{
+    color:white;
+    font-size: 25px;
 }
