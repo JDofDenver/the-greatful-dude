@@ -1,3 +1,7 @@
-//const h2 = document.createElement("h2");
-//h2.textContent = "This content was added by JavaScript";
-//document.querySelector("body").appendChild(h2);
+const action = document.getElementById("slimer");
+function magic(){
+    action.style.visibility = "hidden";
+}
+action.addEventListener("click", magic);
+
+
