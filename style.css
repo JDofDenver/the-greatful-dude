@@ -10,6 +10,7 @@ h2{
     font-size: 30px;
     color: black;
     font-weight: bold;
+    margin-left: 20px;
 }
 #ghost{
     width: 50%;
@@ -21,18 +22,13 @@ h2{
 
 .pac{
     width:50%;
-    float:right;
+    float:left;
     text-align: center;
+    margin-top:70px;
 }
 .firstParagraph{
     color:black;
     font-size: 25px;
-}
-
-.padding{
-    height: 20px;
-    display:block;
-    width: 100%;
 }
 
 .right{
@@ -44,14 +40,14 @@ h2{
     display:block;
     width:50%;
     text-align: center;
-   
+    margin-top:100px;
 }
 #slimer:hover{
     cursor:pointer;
 }
 .disappear{
     width: 45%;
-    float: right;
+    float: left;
     color:black;
     font-size: 25px;
     height:300px;
@@ -61,5 +57,36 @@ h2{
     cursor:pointer;
 }
 p{
-    padding: 20px;px;
+    padding: 20px;
+}
+.links{
+    width:45%;
+    float:right;
+    display: block;
+    background-color: coral;
+    text-align: center;
+}
+.contact{
+    width:45%;
+    float:left;
+    display:block;
+    background-color: coral;
+    margin:auto;
+    text-align: center;
+}
+.footer{
+    background-color: coral;
+    display:block;
+    height:200px;
+    width:100%;
+    float:left;
+}
+.otherBits{
+    padding:20px;
+    font-size: 25px;
+    margin-top: 20px;
+    float:left;
+}
+.project2{
+    margin:20px;
 }
